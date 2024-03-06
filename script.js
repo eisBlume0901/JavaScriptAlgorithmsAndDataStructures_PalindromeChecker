@@ -24,15 +24,11 @@ const checkInputIfPalindrome = () =>{
         }
         if (isPalindrome)
         {
-            const palindromeResult = document.createElement('span');
-            palindromeResult.textContent = `${textInput['value']} is a palindrome`;
-            result.appendChild(palindromeResult);
+            result.innerHTML = `${textInput['value']} is a palindrome`
         }
         else
         {
-            const palindromeResult = document.createElement('span');
-            palindromeResult.textContent = `${textInput['value']} is not a palindrome`;
-            result.appendChild(palindromeResult);
+            result.innerHTML = `${textInput['value']} is not a palindrome`
         }
         textInput['value'] = '';
     }
