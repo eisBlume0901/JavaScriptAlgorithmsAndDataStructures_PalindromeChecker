@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Arial Tahoma Helvetica", sans-serif;
+    background-color: #265073;
+    color: #F1FADA;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50vw;
+    text-align: center;
+    border: #F1FADA 0.5rem solid;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+#text-input {
+    width: 40vw;
+    height: 10vh;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #F1FADA;
+    color: #2D9596;
+    border: none;
+    text-align: center;
+}
+
+#text-input:focus {
+    background-color: #2D9596;
+    color: #F1FADA;
+}
+
+#text-input-label {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#check-btn {
+    width: 40vw;
+    height: 5vh;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: #F1FADA;
+    color: #265073;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#check-btn:hover {
+    background-color: #2D9596;
+    color: #F1FADA;
+}
+
+#result {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#text-input-value {
+    font-weight: bold;
+}
